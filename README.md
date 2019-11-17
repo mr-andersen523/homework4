@@ -10,3 +10,4 @@ At the end you will be prompted for your initials to record your score.
 
 ## Preview 
 
+![Start Page](screenshots/quiz_start.png)
