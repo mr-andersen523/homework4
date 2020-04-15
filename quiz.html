@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://kit.fontawesome.com/eb2106c888.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css" />
+
+</head>
+
+
+<body>
+    <header>
+        <button type="button" class="btn btn-secondary btn-sm" id="highscores">View High-Scores</button>
+        <button onclick="hideStart(window.location.reload())" type="button" class="btn btn-secondary btn-sm" id="back">Back</button>
+
+
+        <span id="timer"></span>
+        
+    </header>
+    <div style="background:transparent !important" class="jumbotron" id="start">
+        <h1>Coding Challenge Quiz</h1>
+<div class="container1">
+        <!-- Figure out how many seconds you want to do-->
+        <p>Try to answer the coding related questions as quickly as possible.</p>
+        <p>Be mindful of the timer! There will be 25 seconds to answer the questions.</p>
+        <br>
+        <p><button onclick='hideStart(renderQuestion())' type="button" class="btn btn-secondary btn-lg btn-block" id="start" style="font-weight: bold;background-color: #563c7d">Start Quiz</button></p>
+    </div>
+    </div>
+</div>
+
+<h2 class="jumbotron"id="quiz_result"></h2>
+<div class="jumbotron" style="text-align: left;"id="quiz"></div>
+
+
+
+
+<script src="quiz.js"></script>
+</body>
+</html>

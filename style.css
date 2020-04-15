@@ -1,11 +1,12 @@
-#highscores {
+#highscores, #back {
     margin-left: 20px;
     margin-top: 10px;
     float: left;
 }
 #timer {
     float: right;
-    padding: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 .jumbotron {
     text-align: center;
